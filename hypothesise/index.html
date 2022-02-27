@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Rubber Duck Debugging!</title>
+    <link rel="icon" href="/images/favicon.png">
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Rubber Duck Debugging</h1>
+      <a href='https://rubberduckdebugging.tiffanyyong.repl.co/examine/'>
+        <img src="/images/step2.jpg" alt="A Rubber Duck" class="center">
+      </a>
+    <div class="explanation">
+        <b>Step 2: Hypothesise</b>
+        <br>
+        Once you have found your problematic code chunk or problematic input, your goal is to think about all the ways in which this code chunk could fail in the way that you're seeing! <br> 
+        When you were reproducing the error, you used 'print' statements to identify the earliest line where what you're expecting the code will do is not what the code has done. Now your job is to figure out why the code is interpreting your instructions in this unexpected way. This means examining any functions you used in that line, and thinking about all the ways in which it could throw this kind of output instead of the one you're expecting. <br>
+        Don't be afraid to throw out lots of wild ideas, this is just the ideas generation stage. The more potential problems you've thought about, the more likely that your actual problem is part of this set. 
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

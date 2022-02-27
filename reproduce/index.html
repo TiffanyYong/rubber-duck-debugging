@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Rubber Duck Debugging!</title>
+    <link rel="icon" href="/images/favicon.png">
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Rubber Duck Debugging</h1>
+      <a href='https://rubberduckdebugging.tiffanyyong.repl.co/hypothesise/'>
+        <img src="/images/step1.jpg" alt="A Rubber Duck" class="center">
+      </a>
+    <div class="explanation">
+        <b>Step 1: Reproduce</b>
+        <br>
+        In order to fix your error, you must first know what is wrong! This means isolating the error to as small of a code chunk as possible. When you localise your error, this helps you narrow down the scope of the problem. Rather than just knowing that "my code isn't working", the problem becomes "this specific function does not work well when I give it this specific input and I don't know why". Knowing the problem is half of the battle to solving it! 
+      <br>
+      Using 'print' statements is extremely helpful here. From the top down, for every line of code, think about what output you're expecting from it. Then, add a print statement in the line after to check if what you're imagining as the output matches with the actual output. When these two things diverge, you know that you've found an error! You should debug from the top down because errors that crop up before will affect the output after, so your later functions could be perfect but your code would still fail if the earlier functions are broken. 
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
